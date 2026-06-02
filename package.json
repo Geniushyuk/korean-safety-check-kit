@@ -1,6 +1,6 @@
 {
   "name": "korean-safety-check-kit",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Open-source Korean digital safety checklist data and scoring utilities.",
   "main": "src/index.js",
   "repository": {

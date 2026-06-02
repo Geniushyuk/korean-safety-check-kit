@@ -1,5 +1,16 @@
 # Changelog
 
+## v0.1.1
+
+Post-submission maintainer-signal update.
+
+### Added
+
+- `MAINTAINERS.md` with human-led review responsibilities and merge checklist.
+- `docs/resource-policy.ko.md` for official resource metadata updates.
+- Documentation smoke test for required maintainer files.
+- Package repository, homepage, and issue metadata.
+
 ## v0.1.0
 
 Initial submission-ready public release.

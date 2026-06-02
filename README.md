@@ -48,6 +48,16 @@ No-build usage is also available through `data/scenarios.ko.json`.
 - `trade-loan-job` — 안전결제 사칭·선입금·저금리 대출·부업 수수료
 - `parent-protection` — 큰 글씨 보이스피싱·자녀 사칭·앱 설치 전화 대응
 
+## Project files
+
+- `data/scenarios.ko.json` — no-build Korean scenario export
+- `schema/scenario.schema.json` — scenario data shape
+- `docs/safe-wording.ko.md` — Korean safe wording rules
+- `docs/resource-policy.ko.md` — official resource update policy
+- `docs/examples.md` — integration examples
+- `MAINTAINERS.md` — human-led review checklist
+- `CHANGELOG.md` — release history
+
 ## Maintainer workflow
 
 This repository is intentionally structured for AI-assisted OSS maintenance:

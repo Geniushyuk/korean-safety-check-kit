@@ -3,9 +3,17 @@
   "version": "0.1.0",
   "description": "Open-source Korean digital safety checklist data and scoring utilities.",
   "main": "src/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Geniushyuk/korean-safety-check-kit.git"
+  },
+  "homepage": "https://github.com/Geniushyuk/korean-safety-check-kit",
+  "bugs": {
+    "url": "https://github.com/Geniushyuk/korean-safety-check-kit/issues"
+  },
   "scripts": {
     "validate": "node scripts/validate.js",
-    "test": "npm run validate && node test/smoke.js"
+    "test": "npm run validate && node test/smoke.js && node test/docs.js"
   },
   "keywords": ["korea", "safety", "phishing", "smishing", "sextortion", "checklist", "public-interest", "codex"],
   "author": "Geniushyuk",

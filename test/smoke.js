@@ -1,0 +1,11 @@
+const assert = require('assert');
+const { listScenarios, getScenario, scoreAnswers, getRecommendedActions, getResources } = require('../src');
+assert.ok(listScenarios().length >= 4);
+const scenario = getScenario('voice-phishing');
+const danger = scoreAnswers(scenario, { vp1: 'yes', vp2: 'yes', vp3: 'yes', vp4: 'yes', vp5: 'yes' });
+assert.equal(danger.level.tone, 'danger');
+assert.equal(getRecommendedActions(scenario, danger).length, 5);
+assert.ok(getResources(scenario).some((item) => item.value.includes('112')));
+const low = scoreAnswers(scenario, { vp1: 'no', vp2: 'no', vp3: 'no', vp4: 'no', vp5: 'no' });
+assert.equal(low.level.tone, 'safe');
+console.log('smoke tests passed');

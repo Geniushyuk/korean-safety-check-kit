@@ -1,0 +1,11 @@
+{
+  "name": "korean-safety-check-kit",
+  "version": "0.1.0",
+  "description": "Korean digital safety checklist data and scoring utilities.",
+  "main": "src/index.js",
+  "scripts": { "test": "node test/smoke.js" },
+  "keywords": ["korea", "safety", "phishing", "smishing", "sextortion", "checklist"],
+  "author": "Geniushyuk",
+  "license": "MIT",
+  "engines": { "node": ">=18.0.0" }
+}

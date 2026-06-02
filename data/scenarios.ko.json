@@ -1,0 +1,2812 @@
+[
+  {
+    "id": "first-meeting",
+    "title": "불편한 만남 탈출",
+    "subtitle": "소개팅·데이팅앱·DM 만남·술자리 후 이동",
+    "category": "meeting",
+    "estimatedTime": "30초~1분",
+    "introCopy": "처음 만나는 사람을 의심하라는 뜻이 아닙니다. 장소, 귀가, 거절 가능성, 개인정보 요구를 확인해 안전한 선택을 돕는 체크입니다.",
+    "disclaimer": "이 체크는 법적 판단, 의료·심리 진단, 범죄 예측이 아닙니다. 긴급 위험이 있으면 112, 119 등 공식 도움을 먼저 이용하세요.",
+    "questions": [
+      {
+        "id": "fm1",
+        "text": "상대가 공개된 장소가 아닌 곳으로 유도하나요?",
+        "helpText": "집, 차, 숙소, 인적 드문 장소는 빠져나오기 어려울 수 있습니다.",
+        "category": "place",
+        "weight": 1,
+        "options": [
+          {
+            "label": "예",
+            "value": "yes",
+            "score": 2
+          },
+          {
+            "label": "아니오",
+            "value": "no",
+            "score": 0
+          },
+          {
+            "label": "모르겠어요",
+            "value": "unknown",
+            "score": 1
+          }
+        ]
+      },
+      {
+        "id": "fm2",
+        "text": "거절했는데 계속 설득하나요?",
+        "helpText": "거절을 존중하는지는 중요한 안전 신호입니다.",
+        "category": "boundary",
+        "weight": 1,
+        "options": [
+          {
+            "label": "예",
+            "value": "yes",
+            "score": 2
+          },
+          {
+            "label": "아니오",
+            "value": "no",
+            "score": 0
+          },
+          {
+            "label": "모르겠어요",
+            "value": "unknown",
+            "score": 1
+          }
+        ]
+      },
+      {
+        "id": "fm3",
+        "text": "술을 강하게 권하거나 귀가 수단을 통제하려 하나요?",
+        "helpText": "판단력과 이동권이 줄어드는 상황은 피하는 편이 안전합니다.",
+        "category": "control",
+        "weight": 1,
+        "options": [
+          {
+            "label": "예",
+            "value": "yes",
+            "score": 2
+          },
+          {
+            "label": "아니오",
+            "value": "no",
+            "score": 0
+          },
+          {
+            "label": "모르겠어요",
+            "value": "unknown",
+            "score": 1
+          }
+        ]
+      },
+      {
+        "id": "fm4",
+        "text": "지인에게 약속 정보를 공유하지 않았나요?",
+        "helpText": "장소와 시간을 공유하는 것은 기본 안전 루틴입니다.",
+        "category": "share",
+        "weight": 1,
+        "options": [
+          {
+            "label": "예",
+            "value": "yes",
+            "score": 2
+          },
+          {
+            "label": "아니오",
+            "value": "no",
+            "score": 0
+          },
+          {
+            "label": "모르겠어요",
+            "value": "unknown",
+            "score": 1
+          }
+        ]
+      },
+      {
+        "id": "fm5",
+        "text": "상대가 개인정보를 과하게 묻나요?",
+        "helpText": "주소, 직장, 학교, 가족 정보는 천천히 공유해도 됩니다.",
+        "category": "privacy",
+        "weight": 1,
+        "options": [
+          {
+            "label": "예",
+            "value": "yes",
+            "score": 2
+          },
+          {
+            "label": "아니오",
+            "value": "no",
+            "score": 0
+          },
+          {
+            "label": "모르겠어요",
+            "value": "unknown",
+            "score": 1
+          }
+        ]
+      },
+      {
+        "id": "fm6",
+        "text": "약속 장소와 시간을 상대가 일방적으로 정하나요?",
+        "helpText": "내가 조정할 수 있는지가 중요합니다.",
+        "category": "control",
+        "weight": 1,
+        "options": [
+          {
+            "label": "예",
+            "value": "yes",
+            "score": 2
+          },
+          {
+            "label": "아니오",
+            "value": "no",
+            "score": 0
+          },
+          {
+            "label": "모르겠어요",
+            "value": "unknown",
+            "score": 1
+          }
+        ]
+      },
+      {
+        "id": "fm7",
+        "text": "“나 못 믿어?” “예민하네” 같은 압박이 있나요?",
+        "helpText": "불편함을 무시하게 만드는 말은 체크해야 할 신호입니다.",
+        "category": "pressure",
+        "weight": 1,
+        "options": [
+          {
+            "label": "예",
+            "value": "yes",
+            "score": 2
+          },
+          {
+            "label": "아니오",
+            "value": "no",
+            "score": 0
+          },
+          {
+            "label": "모르겠어요",
+            "value": "unknown",
+            "score": 1
+          }
+        ]
+      },
+      {
+        "id": "fm8",
+        "text": "차를 태워주겠다며 이동을 제안하나요?",
+        "helpText": "첫 만남에서는 내가 선택한 교통수단이 더 안전합니다.",
+        "category": "move",
+        "weight": 1,
+        "options": [
+          {
+            "label": "예",
+            "value": "yes",
+            "score": 2
+          },
+          {
+            "label": "아니오",
+            "value": "no",
+            "score": 0
+          },
+          {
+            "label": "모르겠어요",
+            "value": "unknown",
+            "score": 1
+          }
+        ]
+      },
+      {
+        "id": "fm9",
+        "text": "2차나 숙소 이동을 강하게 권하나요?",
+        "helpText": "원치 않는 이동은 거절해도 됩니다.",
+        "category": "boundary",
+        "weight": 1,
+        "options": [
+          {
+            "label": "예",
+            "value": "yes",
+            "score": 2
+          },
+          {
+            "label": "아니오",
+            "value": "no",
+            "score": 0
+          },
+          {
+            "label": "모르겠어요",
+            "value": "unknown",
+            "score": 1
+          }
+        ]
+      },
+      {
+        "id": "fm10",
+        "text": "귀가 시간과 방법을 아직 정하지 않았나요?",
+        "helpText": "귀가 계획은 불안을 줄이는 가장 빠른 방법입니다.",
+        "category": "return",
+        "weight": 1,
+        "options": [
+          {
+            "label": "예",
+            "value": "yes",
+            "score": 2
+          },
+          {
+            "label": "아니오",
+            "value": "no",
+            "score": 0
+          },
+          {
+            "label": "모르겠어요",
+            "value": "unknown",
+            "score": 1
+          }
+        ]
+      }
+    ],
+    "resultLevels": [
+      {
+        "minScore": 0,
+        "maxScore": 5,
+        "label": "낮음",
+        "tone": "safe",
+        "summary": "지금은 기본 확인만 해도 괜찮아 보여요. 그래도 중요한 정보 공유와 공식 경로 확인은 유지하세요."
+      },
+      {
+        "minScore": 6,
+        "maxScore": 10,
+        "label": "주의",
+        "tone": "notice",
+        "summary": "몇 가지 신호가 있어요. 혼자 판단하지 말고 한 번 멈춰 확인해보세요."
+      },
+      {
+        "minScore": 11,
+        "maxScore": 15,
+        "label": "경계",
+        "tone": "caution",
+        "summary": "지금은 응답, 송금, 이동, 추가 정보 제공을 멈추고 기록과 공유가 필요합니다."
+      },
+      {
+        "minScore": 16,
+        "maxScore": 30,
+        "label": "위험 가능성 높음",
+        "tone": "danger",
+        "summary": "즉시 통화나 대화를 멈추고 공식기관 또는 신뢰할 수 있는 사람에게 도움을 요청하세요."
+      }
+    ],
+    "recommendedActions": [
+      "공개된 장소로 변경하기",
+      "지인에게 위치와 약속 정보 공유하기",
+      "귀가 알림 켜기",
+      "거절 문구 복사하기",
+      "위험 시 112 또는 1366 확인하기"
+    ],
+    "shareTemplates": [
+      "처음 만남 전 30초 안심 체크 완료 ✅",
+      "불편함은 무시할 감정이 아니라 확인할 신호예요.",
+      "오늘 약속 있는 친구에게 보내는 체크.",
+      "처음 만나는 날엔 공개 장소부터.",
+      "내 안전은 과한 게 아니라 기본."
+    ],
+    "copyMessages": [
+      "오늘은 공개된 곳에서만 보고 바로 귀가할게.",
+      "오늘은 여기까지만 할게요. 조심히 들어가세요.",
+      "지금 약속 장소와 시간을 친구에게 공유해둘게."
+    ],
+    "officialResources": [
+      {
+        "label": "긴급 위험",
+        "value": "112 경찰 / 119 응급"
+      },
+      {
+        "label": "여성폭력·스토킹·교제폭력 상담",
+        "value": "1366"
+      }
+    ]
+  },
+  {
+    "id": "relationship-signals",
+    "title": "관계 속 통제/협박 신호 체크",
+    "subtitle": "위치 공유·휴대폰 검사·협박·고립 신호",
+    "category": "relationship",
+    "estimatedTime": "30초~1분",
+    "introCopy": "사람을 진단하지 않고 관계 안의 통제, 협박, 고립, 디지털 압박 신호를 점검합니다.",
+    "disclaimer": "이 체크는 법적 판단, 의료·심리 진단, 범죄 예측이 아닙니다. 긴급 위험이 있으면 112, 119 등 공식 도움을 먼저 이용하세요.",
+    "questions": [
+      {
+        "id": "rs1",
+        "text": "휴대폰 검사나 위치 공유를 강요하나요?",
+        "helpText": "사생활 접근을 사랑의 증명으로 요구한다면 멈춰볼 신호입니다.",
+        "category": "privacy",
+        "weight": 1,
+        "options": [
+          {
+            "label": "예",
+            "value": "yes",
+            "score": 2
+          },
+          {
+            "label": "아니오",
+            "value": "no",
+            "score": 0
+          },
+          {
+            "label": "모르겠어요",
+            "value": "unknown",
+            "score": 1
+          }
+        ]
+      },
+      {
+        "id": "rs2",
+        "text": "SNS 비밀번호를 요구하나요?",
+        "helpText": "비밀번호 공유는 안전하지 않습니다.",
+        "category": "privacy",
+        "weight": 1,
+        "options": [
+          {
+            "label": "예",
+            "value": "yes",
+            "score": 2
+          },
+          {
+            "label": "아니오",
+            "value": "no",
+            "score": 0
+          },
+          {
+            "label": "모르겠어요",
+            "value": "unknown",
+            "score": 1
+          }
+        ]
+      },
+      {
+        "id": "rs3",
+        "text": "이별이나 거절 후 협박성 말을 하나요?",
+        "helpText": "협박은 혼자 감당하지 말고 기록해야 합니다.",
+        "category": "threat",
+        "weight": 1,
+        "options": [
+          {
+            "label": "예",
+            "value": "yes",
+            "score": 2
+          },
+          {
+            "label": "아니오",
+            "value": "no",
+            "score": 0
+          },
+          {
+            "label": "모르겠어요",
+            "value": "unknown",
+            "score": 1
+          }
+        ]
+      },
+      {
+        "id": "rs4",
+        "text": "내 주변 사람과 멀어지게 하나요?",
+        "helpText": "고립은 도움 요청을 어렵게 만듭니다.",
+        "category": "isolation",
+        "weight": 1,
+        "options": [
+          {
+            "label": "예",
+            "value": "yes",
+            "score": 2
+          },
+          {
+            "label": "아니오",
+            "value": "no",
+            "score": 0
+          },
+          {
+            "label": "모르겠어요",
+            "value": "unknown",
+            "score": 1
+          }
+        ]
+      },
+      {
+        "id": "rs5",
+        "text": "사적인 사진/영상으로 압박하나요?",
+        "helpText": "동의 없는 저장, 공유, 압박은 즉시 기록이 필요합니다.",
+        "category": "digital",
+        "weight": 1,
+        "options": [
+          {
+            "label": "예",
+            "value": "yes",
+            "score": 2
+          },
+          {
+            "label": "아니오",
+            "value": "no",
+            "score": 0
+          },
+          {
+            "label": "모르겠어요",
+            "value": "unknown",
+            "score": 1
+          }
+        ]
+      },
+      {
+        "id": "rs6",
+        "text": "옷차림이나 만나는 사람을 통제하나요?",
+        "helpText": "관심과 통제는 다릅니다.",
+        "category": "control",
+        "weight": 1,
+        "options": [
+          {
+            "label": "예",
+            "value": "yes",
+            "score": 2
+          },
+          {
+            "label": "아니오",
+            "value": "no",
+            "score": 0
+          },
+          {
+            "label": "모르겠어요",
+            "value": "unknown",
+            "score": 1
+          }
+        ]
+      },
+      {
+        "id": "rs7",
+        "text": "사과 후 같은 행동이 반복되나요?",
+        "helpText": "사과보다 반복 패턴이 더 중요합니다.",
+        "category": "repeat",
+        "weight": 1,
+        "options": [
+          {
+            "label": "예",
+            "value": "yes",
+            "score": 2
+          },
+          {
+            "label": "아니오",
+            "value": "no",
+            "score": 0
+          },
+          {
+            "label": "모르겠어요",
+            "value": "unknown",
+            "score": 1
+          }
+        ]
+      },
+      {
+        "id": "rs8",
+        "text": "상대를 자극할까 봐 말을 참나요?",
+        "helpText": "표현을 계속 억누르게 된다면 안전감을 점검해야 합니다.",
+        "category": "fear",
+        "weight": 1,
+        "options": [
+          {
+            "label": "예",
+            "value": "yes",
+            "score": 2
+          },
+          {
+            "label": "아니오",
+            "value": "no",
+            "score": 0
+          },
+          {
+            "label": "모르겠어요",
+            "value": "unknown",
+            "score": 1
+          }
+        ]
+      },
+      {
+        "id": "rs9",
+        "text": "다툼의 책임을 계속 내 탓으로 돌리나요?",
+        "helpText": "상대의 행동 책임이 나에게 전가되는지 확인하세요.",
+        "category": "blame",
+        "weight": 1,
+        "options": [
+          {
+            "label": "예",
+            "value": "yes",
+            "score": 2
+          },
+          {
+            "label": "아니오",
+            "value": "no",
+            "score": 0
+          },
+          {
+            "label": "모르겠어요",
+            "value": "unknown",
+            "score": 1
+          }
+        ]
+      },
+      {
+        "id": "rs10",
+        "text": "혼자 만나서 해결하자고 압박하나요?",
+        "helpText": "불안한 상황의 단둘이 만남은 피하는 편이 안전합니다.",
+        "category": "meeting",
+        "weight": 1,
+        "options": [
+          {
+            "label": "예",
+            "value": "yes",
+            "score": 2
+          },
+          {
+            "label": "아니오",
+            "value": "no",
+            "score": 0
+          },
+          {
+            "label": "모르겠어요",
+            "value": "unknown",
+            "score": 1
+          }
+        ]
+      }
+    ],
+    "resultLevels": [
+      {
+        "minScore": 0,
+        "maxScore": 5,
+        "label": "낮음",
+        "tone": "safe",
+        "summary": "지금은 기본 확인만 해도 괜찮아 보여요. 그래도 중요한 정보 공유와 공식 경로 확인은 유지하세요."
+      },
+      {
+        "minScore": 6,
+        "maxScore": 10,
+        "label": "주의",
+        "tone": "notice",
+        "summary": "몇 가지 신호가 있어요. 혼자 판단하지 말고 한 번 멈춰 확인해보세요."
+      },
+      {
+        "minScore": 11,
+        "maxScore": 15,
+        "label": "경계",
+        "tone": "caution",
+        "summary": "지금은 응답, 송금, 이동, 추가 정보 제공을 멈추고 기록과 공유가 필요합니다."
+      },
+      {
+        "minScore": 16,
+        "maxScore": 30,
+        "label": "위험 가능성 높음",
+        "tone": "danger",
+        "summary": "즉시 통화나 대화를 멈추고 공식기관 또는 신뢰할 수 있는 사람에게 도움을 요청하세요."
+      }
+    ],
+    "recommendedActions": [
+      "대화 캡처 및 기록 남기기",
+      "혼자 만나서 해결하지 않기",
+      "신뢰할 수 있는 사람에게 공유하기",
+      "필요 시 112, 1366 안내 확인하기",
+      "법률·상담 지원 연결 고려하기"
+    ],
+    "shareTemplates": [
+      "관계 속 불편함은 혼자 판단하지 않기.",
+      "예민한 게 아니라 확인해볼 수 있는 신호예요.",
+      "통제와 사랑은 다릅니다.",
+      "친구가 걱정된다면 이 체크를 보내주세요.",
+      "기록하고 공유하면 피해를 줄일 수 있어요."
+    ],
+    "copyMessages": [
+      "내 휴대폰과 위치 정보는 공유하지 않겠습니다.",
+      "지금은 혼자 만나서 이야기하지 않겠습니다.",
+      "이 대화는 더 이어가기 어렵습니다. 앞으로 연락하지 말아주세요."
+    ],
+    "officialResources": [
+      {
+        "label": "긴급 위험",
+        "value": "112 경찰 / 119 응급"
+      },
+      {
+        "label": "여성폭력·스토킹·교제폭력 상담",
+        "value": "1366"
+      }
+    ]
+  },
+  {
+    "id": "safe-return",
+    "title": "혼자 귀가 안심 루틴",
+    "subtitle": "밤길·택시·술자리 후 귀가 전 체크",
+    "category": "return",
+    "estimatedTime": "30초~1분",
+    "introCopy": "귀가 상황에서 배터리, 경로, 위치 공유, 도착 알림을 빠르게 확인하는 루틴입니다.",
+    "disclaimer": "이 체크는 법적 판단, 의료·심리 진단, 범죄 예측이 아닙니다. 긴급 위험이 있으면 112, 119 등 공식 도움을 먼저 이용하세요.",
+    "questions": [
+      {
+        "id": "sr1",
+        "text": "휴대폰 배터리가 20% 이하인가요?",
+        "helpText": "연락과 위치 공유가 어려울 수 있습니다.",
+        "category": "battery",
+        "weight": 1,
+        "options": [
+          {
+            "label": "예",
+            "value": "yes",
+            "score": 2
+          },
+          {
+            "label": "아니오",
+            "value": "no",
+            "score": 0
+          },
+          {
+            "label": "모르겠어요",
+            "value": "unknown",
+            "score": 1
+          }
+        ]
+      },
+      {
+        "id": "sr2",
+        "text": "어두운 골목이나 인적 드문 구간이 있나요?",
+        "helpText": "큰길 우선 경로로 바꾸는 것이 좋습니다.",
+        "category": "route",
+        "weight": 1,
+        "options": [
+          {
+            "label": "예",
+            "value": "yes",
+            "score": 2
+          },
+          {
+            "label": "아니오",
+            "value": "no",
+            "score": 0
+          },
+          {
+            "label": "모르겠어요",
+            "value": "unknown",
+            "score": 1
+          }
+        ]
+      },
+      {
+        "id": "sr3",
+        "text": "귀가 시작/도착 알림을 공유하지 않았나요?",
+        "helpText": "도착 알림은 간단한 안전망입니다.",
+        "category": "share",
+        "weight": 1,
+        "options": [
+          {
+            "label": "예",
+            "value": "yes",
+            "score": 2
+          },
+          {
+            "label": "아니오",
+            "value": "no",
+            "score": 0
+          },
+          {
+            "label": "모르겠어요",
+            "value": "unknown",
+            "score": 1
+          }
+        ]
+      },
+      {
+        "id": "sr4",
+        "text": "택시 차량번호나 이동 경로를 공유하지 않았나요?",
+        "helpText": "차량번호와 경로 공유는 안전감을 높입니다.",
+        "category": "taxi",
+        "weight": 1,
+        "options": [
+          {
+            "label": "예",
+            "value": "yes",
+            "score": 2
+          },
+          {
+            "label": "아니오",
+            "value": "no",
+            "score": 0
+          },
+          {
+            "label": "모르겠어요",
+            "value": "unknown",
+            "score": 1
+          }
+        ]
+      },
+      {
+        "id": "sr5",
+        "text": "이어폰으로 주변 소리를 차단하고 있나요?",
+        "helpText": "주변 소리를 들을 수 있게 하세요.",
+        "category": "awareness",
+        "weight": 1,
+        "options": [
+          {
+            "label": "예",
+            "value": "yes",
+            "score": 2
+          },
+          {
+            "label": "아니오",
+            "value": "no",
+            "score": 0
+          },
+          {
+            "label": "모르겠어요",
+            "value": "unknown",
+            "score": 1
+          }
+        ]
+      },
+      {
+        "id": "sr6",
+        "text": "술을 마셔 판단력이 떨어진 상태인가요?",
+        "helpText": "이럴 때는 도움 요청이 더 안전할 수 있습니다.",
+        "category": "condition",
+        "weight": 1,
+        "options": [
+          {
+            "label": "예",
+            "value": "yes",
+            "score": 2
+          },
+          {
+            "label": "아니오",
+            "value": "no",
+            "score": 0
+          },
+          {
+            "label": "모르겠어요",
+            "value": "unknown",
+            "score": 1
+          }
+        ]
+      },
+      {
+        "id": "sr7",
+        "text": "집 앞 마지막 구간을 혼자 이동해야 하나요?",
+        "helpText": "마지막 구간은 통화나 주변 확인이 도움이 됩니다.",
+        "category": "home",
+        "weight": 1,
+        "options": [
+          {
+            "label": "예",
+            "value": "yes",
+            "score": 2
+          },
+          {
+            "label": "아니오",
+            "value": "no",
+            "score": 0
+          },
+          {
+            "label": "모르겠어요",
+            "value": "unknown",
+            "score": 1
+          }
+        ]
+      },
+      {
+        "id": "sr8",
+        "text": "현재 위치를 정확히 설명하기 어렵나요?",
+        "helpText": "긴급 상황에서 위치 설명이 중요합니다.",
+        "category": "location",
+        "weight": 1,
+        "options": [
+          {
+            "label": "예",
+            "value": "yes",
+            "score": 2
+          },
+          {
+            "label": "아니오",
+            "value": "no",
+            "score": 0
+          },
+          {
+            "label": "모르겠어요",
+            "value": "unknown",
+            "score": 1
+          }
+        ]
+      },
+      {
+        "id": "sr9",
+        "text": "귀가 시간이 평소보다 많이 늦었나요?",
+        "helpText": "밝은 길과 사람 있는 길을 우선하세요.",
+        "category": "time",
+        "weight": 1,
+        "options": [
+          {
+            "label": "예",
+            "value": "yes",
+            "score": 2
+          },
+          {
+            "label": "아니오",
+            "value": "no",
+            "score": 0
+          },
+          {
+            "label": "모르겠어요",
+            "value": "unknown",
+            "score": 1
+          }
+        ]
+      },
+      {
+        "id": "sr10",
+        "text": "도착 확인을 기다리는 사람이 없나요?",
+        "helpText": "짧은 약속만으로도 안전망이 생깁니다.",
+        "category": "arrival",
+        "weight": 1,
+        "options": [
+          {
+            "label": "예",
+            "value": "yes",
+            "score": 2
+          },
+          {
+            "label": "아니오",
+            "value": "no",
+            "score": 0
+          },
+          {
+            "label": "모르겠어요",
+            "value": "unknown",
+            "score": 1
+          }
+        ]
+      }
+    ],
+    "resultLevels": [
+      {
+        "minScore": 0,
+        "maxScore": 5,
+        "label": "낮음",
+        "tone": "safe",
+        "summary": "지금은 기본 확인만 해도 괜찮아 보여요. 그래도 중요한 정보 공유와 공식 경로 확인은 유지하세요."
+      },
+      {
+        "minScore": 6,
+        "maxScore": 10,
+        "label": "주의",
+        "tone": "notice",
+        "summary": "몇 가지 신호가 있어요. 혼자 판단하지 말고 한 번 멈춰 확인해보세요."
+      },
+      {
+        "minScore": 11,
+        "maxScore": 15,
+        "label": "경계",
+        "tone": "caution",
+        "summary": "지금은 응답, 송금, 이동, 추가 정보 제공을 멈추고 기록과 공유가 필요합니다."
+      },
+      {
+        "minScore": 16,
+        "maxScore": 30,
+        "label": "위험 가능성 높음",
+        "tone": "danger",
+        "summary": "즉시 통화나 대화를 멈추고 공식기관 또는 신뢰할 수 있는 사람에게 도움을 요청하세요."
+      }
+    ],
+    "recommendedActions": [
+      "위치 공유 켜기",
+      "귀가 타이머 또는 도착 알림 설정하기",
+      "밝은 큰길 우선 경로로 이동하기",
+      "택시 정보 공유하기",
+      "불안하면 지인과 통화하며 이동하기"
+    ],
+    "shareTemplates": [
+      "혼자 귀가 전 30초 안전 루틴 켰어요.",
+      "지금 집 가는 길, 도착 알림까지 완료.",
+      "불안할 땐 큰길·위치 공유·도착 알림.",
+      "오늘의 안심 루틴 완료 ✅",
+      "혼자 귀가하는 친구에게 보내는 체크."
+    ],
+    "copyMessages": [
+      "지금 집 가는 중이야. 도착하면 연락할게.",
+      "택시 탔어. 차량번호랑 경로 공유해둘게.",
+      "배터리가 적어서 도착 전까지 연락 안 되면 전화 한 번 해줘."
+    ],
+    "officialResources": [
+      {
+        "label": "긴급 위험",
+        "value": "112 경찰 / 119 응급"
+      }
+    ]
+  },
+  {
+    "id": "sextortion",
+    "title": "몸캠피싱/협박 탈출",
+    "subtitle": "영상·사진 유포 협박, 금전 요구, 추가 자료 요구",
+    "category": "threat",
+    "estimatedTime": "30초~1분",
+    "introCopy": "창피해서 숨기면 피해가 커질 수 있습니다. 지금은 멈추고 차단·기록·신고가 먼저입니다.",
+    "disclaimer": "이 체크는 법적 판단, 의료·심리 진단, 범죄 예측이 아닙니다. 긴급 위험이 있으면 112, 119 등 공식 도움을 먼저 이용하세요.",
+    "questions": [
+      {
+        "id": "sx1",
+        "text": "영상이나 사진을 유포하겠다고 협박하나요?",
+        "helpText": "협박성 메시지는 즉시 기록해야 합니다.",
+        "category": "threat",
+        "weight": 1,
+        "options": [
+          {
+            "label": "예",
+            "value": "yes",
+            "score": 2
+          },
+          {
+            "label": "아니오",
+            "value": "no",
+            "score": 0
+          },
+          {
+            "label": "모르겠어요",
+            "value": "unknown",
+            "score": 1
+          }
+        ]
+      },
+      {
+        "id": "sx2",
+        "text": "돈을 보내면 삭제하겠다고 하나요?",
+        "helpText": "송금이 해결을 보장하지 않습니다.",
+        "category": "money",
+        "weight": 1,
+        "options": [
+          {
+            "label": "예",
+            "value": "yes",
+            "score": 2
+          },
+          {
+            "label": "아니오",
+            "value": "no",
+            "score": 0
+          },
+          {
+            "label": "모르겠어요",
+            "value": "unknown",
+            "score": 1
+          }
+        ]
+      },
+      {
+        "id": "sx3",
+        "text": "지인 연락처를 알고 있다고 압박하나요?",
+        "helpText": "공포를 키워 송금을 유도하는 방식일 수 있습니다.",
+        "category": "pressure",
+        "weight": 1,
+        "options": [
+          {
+            "label": "예",
+            "value": "yes",
+            "score": 2
+          },
+          {
+            "label": "아니오",
+            "value": "no",
+            "score": 0
+          },
+          {
+            "label": "모르겠어요",
+            "value": "unknown",
+            "score": 1
+          }
+        ]
+      },
+      {
+        "id": "sx4",
+        "text": "추가 영상이나 사진을 요구하나요?",
+        "helpText": "추가 자료 전송은 중단해야 합니다.",
+        "category": "request",
+        "weight": 1,
+        "options": [
+          {
+            "label": "예",
+            "value": "yes",
+            "score": 2
+          },
+          {
+            "label": "아니오",
+            "value": "no",
+            "score": 0
+          },
+          {
+            "label": "모르겠어요",
+            "value": "unknown",
+            "score": 1
+          }
+        ]
+      },
+      {
+        "id": "sx5",
+        "text": "지금 바로 송금하라고 하나요?",
+        "helpText": "긴급 압박은 사기·협박의 흔한 수법입니다.",
+        "category": "urgency",
+        "weight": 1,
+        "options": [
+          {
+            "label": "예",
+            "value": "yes",
+            "score": 2
+          },
+          {
+            "label": "아니오",
+            "value": "no",
+            "score": 0
+          },
+          {
+            "label": "모르겠어요",
+            "value": "unknown",
+            "score": 1
+          }
+        ]
+      },
+      {
+        "id": "sx6",
+        "text": "대화를 지우라고 하나요?",
+        "helpText": "증거 삭제 요구에 따르지 마세요.",
+        "category": "evidence",
+        "weight": 1,
+        "options": [
+          {
+            "label": "예",
+            "value": "yes",
+            "score": 2
+          },
+          {
+            "label": "아니오",
+            "value": "no",
+            "score": 0
+          },
+          {
+            "label": "모르겠어요",
+            "value": "unknown",
+            "score": 1
+          }
+        ]
+      },
+      {
+        "id": "sx7",
+        "text": "계좌나 코인 지갑 주소를 보냈나요?",
+        "helpText": "계좌와 지갑 주소는 기록해두세요.",
+        "category": "account",
+        "weight": 1,
+        "options": [
+          {
+            "label": "예",
+            "value": "yes",
+            "score": 2
+          },
+          {
+            "label": "아니오",
+            "value": "no",
+            "score": 0
+          },
+          {
+            "label": "모르겠어요",
+            "value": "unknown",
+            "score": 1
+          }
+        ]
+      },
+      {
+        "id": "sx8",
+        "text": "혼자 해결해야 한다고 느끼나요?",
+        "helpText": "주변 공유가 피해 확산을 줄일 수 있습니다.",
+        "category": "isolation",
+        "weight": 1,
+        "options": [
+          {
+            "label": "예",
+            "value": "yes",
+            "score": 2
+          },
+          {
+            "label": "아니오",
+            "value": "no",
+            "score": 0
+          },
+          {
+            "label": "모르겠어요",
+            "value": "unknown",
+            "score": 1
+          }
+        ]
+      },
+      {
+        "id": "sx9",
+        "text": "신분증이나 개인정보를 보냈나요?",
+        "helpText": "추가 피해 예방 조치가 필요합니다.",
+        "category": "privacy",
+        "weight": 1,
+        "options": [
+          {
+            "label": "예",
+            "value": "yes",
+            "score": 2
+          },
+          {
+            "label": "아니오",
+            "value": "no",
+            "score": 0
+          },
+          {
+            "label": "모르겠어요",
+            "value": "unknown",
+            "score": 1
+          }
+        ]
+      },
+      {
+        "id": "sx10",
+        "text": "차단하면 더 퍼뜨리겠다고 하나요?",
+        "helpText": "협박은 공식 도움과 기록으로 대응해야 합니다.",
+        "category": "threat",
+        "weight": 1,
+        "options": [
+          {
+            "label": "예",
+            "value": "yes",
+            "score": 2
+          },
+          {
+            "label": "아니오",
+            "value": "no",
+            "score": 0
+          },
+          {
+            "label": "모르겠어요",
+            "value": "unknown",
+            "score": 1
+          }
+        ]
+      }
+    ],
+    "resultLevels": [
+      {
+        "minScore": 0,
+        "maxScore": 5,
+        "label": "낮음",
+        "tone": "safe",
+        "summary": "지금은 기본 확인만 해도 괜찮아 보여요. 그래도 중요한 정보 공유와 공식 경로 확인은 유지하세요."
+      },
+      {
+        "minScore": 6,
+        "maxScore": 10,
+        "label": "주의",
+        "tone": "notice",
+        "summary": "몇 가지 신호가 있어요. 혼자 판단하지 말고 한 번 멈춰 확인해보세요."
+      },
+      {
+        "minScore": 11,
+        "maxScore": 15,
+        "label": "경계",
+        "tone": "caution",
+        "summary": "지금은 응답, 송금, 이동, 추가 정보 제공을 멈추고 기록과 공유가 필요합니다."
+      },
+      {
+        "minScore": 16,
+        "maxScore": 30,
+        "label": "위험 가능성 높음",
+        "tone": "danger",
+        "summary": "즉시 통화나 대화를 멈추고 공식기관 또는 신뢰할 수 있는 사람에게 도움을 요청하세요."
+      }
+    ],
+    "recommendedActions": [
+      "돈 보내지 않기",
+      "추가 사진·영상 보내지 않기",
+      "대화 캡처하기",
+      "계좌·전화번호·지갑주소 기록하기",
+      "경찰 또는 상담기관 안내 확인하기"
+    ],
+    "shareTemplates": [
+      "협박을 받았다면 혼자 숨기지 않기.",
+      "돈 보내기 전에 멈추고 기록하세요.",
+      "몸캠피싱 의심 시 추가 자료 전송 금지.",
+      "창피함보다 피해 차단이 먼저입니다.",
+      "친구가 협박을 받았다면 이 체크를 보내주세요."
+    ],
+    "copyMessages": [
+      "더 이상 응답하지 않겠습니다. 대화 내용은 기록하겠습니다.",
+      "금전 요구에는 응하지 않겠습니다.",
+      "이 내용은 신고 및 상담을 위해 보관하겠습니다."
+    ],
+    "officialResources": [
+      {
+        "label": "긴급 위험",
+        "value": "112 경찰 / 119 응급"
+      },
+      {
+        "label": "스미싱·해킹 상담",
+        "value": "118 KISA"
+      },
+      {
+        "label": "여성폭력·스토킹·교제폭력 상담",
+        "value": "1366"
+      }
+    ]
+  },
+  {
+    "id": "voice-phishing",
+    "title": "보이스피싱 전화 대응",
+    "subtitle": "검찰·경찰·금감원 사칭, 앱 설치, 현금 전달 요구",
+    "category": "phone",
+    "estimatedTime": "30초~1분",
+    "introCopy": "통화를 끊어도 됩니다. 송금하지 않아도 됩니다. 공식 대표번호로 직접 확인하는 것이 우선입니다.",
+    "disclaimer": "이 체크는 법적 판단, 의료·심리 진단, 범죄 예측이 아닙니다. 긴급 위험이 있으면 112, 119 등 공식 도움을 먼저 이용하세요.",
+    "questions": [
+      {
+        "id": "vp1",
+        "text": "검찰/경찰/금감원이라며 돈을 요구하나요?",
+        "helpText": "공식기관은 전화로 현금 전달을 요구하지 않습니다.",
+        "category": "agency",
+        "weight": 1,
+        "options": [
+          {
+            "label": "예",
+            "value": "yes",
+            "score": 2
+          },
+          {
+            "label": "아니오",
+            "value": "no",
+            "score": 0
+          },
+          {
+            "label": "모르겠어요",
+            "value": "unknown",
+            "score": 1
+          }
+        ]
+      },
+      {
+        "id": "vp2",
+        "text": "계좌가 범죄에 연루됐다고 하나요?",
+        "helpText": "겁을 주며 송금을 유도하는 흔한 수법입니다.",
+        "category": "fear",
+        "weight": 1,
+        "options": [
+          {
+            "label": "예",
+            "value": "yes",
+            "score": 2
+          },
+          {
+            "label": "아니오",
+            "value": "no",
+            "score": 0
+          },
+          {
+            "label": "모르겠어요",
+            "value": "unknown",
+            "score": 1
+          }
+        ]
+      },
+      {
+        "id": "vp3",
+        "text": "앱 설치를 요구하나요?",
+        "helpText": "수사·금융기관 사칭 앱 설치 요구는 응하지 마세요.",
+        "category": "app",
+        "weight": 1,
+        "options": [
+          {
+            "label": "예",
+            "value": "yes",
+            "score": 2
+          },
+          {
+            "label": "아니오",
+            "value": "no",
+            "score": 0
+          },
+          {
+            "label": "모르겠어요",
+            "value": "unknown",
+            "score": 1
+          }
+        ]
+      },
+      {
+        "id": "vp4",
+        "text": "통화를 끊지 말라고 하나요?",
+        "helpText": "끊지 말라는 압박은 위험 신호입니다.",
+        "category": "control",
+        "weight": 1,
+        "options": [
+          {
+            "label": "예",
+            "value": "yes",
+            "score": 2
+          },
+          {
+            "label": "아니오",
+            "value": "no",
+            "score": 0
+          },
+          {
+            "label": "모르겠어요",
+            "value": "unknown",
+            "score": 1
+          }
+        ]
+      },
+      {
+        "id": "vp5",
+        "text": "현금을 인출해서 전달하라고 하나요?",
+        "helpText": "현금 전달 요구는 즉시 중단해야 합니다.",
+        "category": "cash",
+        "weight": 1,
+        "options": [
+          {
+            "label": "예",
+            "value": "yes",
+            "score": 2
+          },
+          {
+            "label": "아니오",
+            "value": "no",
+            "score": 0
+          },
+          {
+            "label": "모르겠어요",
+            "value": "unknown",
+            "score": 1
+          }
+        ]
+      },
+      {
+        "id": "vp6",
+        "text": "자녀가 다쳤다거나 납치됐다고 하나요?",
+        "helpText": "다른 전화로 가족에게 직접 확인하세요.",
+        "category": "family",
+        "weight": 1,
+        "options": [
+          {
+            "label": "예",
+            "value": "yes",
+            "score": 2
+          },
+          {
+            "label": "아니오",
+            "value": "no",
+            "score": 0
+          },
+          {
+            "label": "모르겠어요",
+            "value": "unknown",
+            "score": 1
+          }
+        ]
+      },
+      {
+        "id": "vp7",
+        "text": "신분증, 계좌번호, 인증번호를 요구하나요?",
+        "helpText": "개인정보 제공을 멈추세요.",
+        "category": "privacy",
+        "weight": 1,
+        "options": [
+          {
+            "label": "예",
+            "value": "yes",
+            "score": 2
+          },
+          {
+            "label": "아니오",
+            "value": "no",
+            "score": 0
+          },
+          {
+            "label": "모르겠어요",
+            "value": "unknown",
+            "score": 1
+          }
+        ]
+      },
+      {
+        "id": "vp8",
+        "text": "기존 대출을 먼저 갚으라고 하나요?",
+        "helpText": "대출 상환 요구형 사기일 수 있습니다.",
+        "category": "loan",
+        "weight": 1,
+        "options": [
+          {
+            "label": "예",
+            "value": "yes",
+            "score": 2
+          },
+          {
+            "label": "아니오",
+            "value": "no",
+            "score": 0
+          },
+          {
+            "label": "모르겠어요",
+            "value": "unknown",
+            "score": 1
+          }
+        ]
+      },
+      {
+        "id": "vp9",
+        "text": "혼자만 알고 있으라고 하나요?",
+        "helpText": "고립시키는 말은 사기 신호입니다.",
+        "category": "isolation",
+        "weight": 1,
+        "options": [
+          {
+            "label": "예",
+            "value": "yes",
+            "score": 2
+          },
+          {
+            "label": "아니오",
+            "value": "no",
+            "score": 0
+          },
+          {
+            "label": "모르겠어요",
+            "value": "unknown",
+            "score": 1
+          }
+        ]
+      },
+      {
+        "id": "vp10",
+        "text": "지금 바로 이체해야 한다고 하나요?",
+        "helpText": "긴급 송금 압박은 멈춤 신호입니다.",
+        "category": "urgency",
+        "weight": 1,
+        "options": [
+          {
+            "label": "예",
+            "value": "yes",
+            "score": 2
+          },
+          {
+            "label": "아니오",
+            "value": "no",
+            "score": 0
+          },
+          {
+            "label": "모르겠어요",
+            "value": "unknown",
+            "score": 1
+          }
+        ]
+      }
+    ],
+    "resultLevels": [
+      {
+        "minScore": 0,
+        "maxScore": 5,
+        "label": "낮음",
+        "tone": "safe",
+        "summary": "지금은 기본 확인만 해도 괜찮아 보여요. 그래도 중요한 정보 공유와 공식 경로 확인은 유지하세요."
+      },
+      {
+        "minScore": 6,
+        "maxScore": 10,
+        "label": "주의",
+        "tone": "notice",
+        "summary": "몇 가지 신호가 있어요. 혼자 판단하지 말고 한 번 멈춰 확인해보세요."
+      },
+      {
+        "minScore": 11,
+        "maxScore": 15,
+        "label": "경계",
+        "tone": "caution",
+        "summary": "지금은 응답, 송금, 이동, 추가 정보 제공을 멈추고 기록과 공유가 필요합니다."
+      },
+      {
+        "minScore": 16,
+        "maxScore": 30,
+        "label": "위험 가능성 높음",
+        "tone": "danger",
+        "summary": "즉시 통화나 대화를 멈추고 공식기관 또는 신뢰할 수 있는 사람에게 도움을 요청하세요."
+      }
+    ],
+    "recommendedActions": [
+      "즉시 통화 끊기",
+      "공식 대표번호로 직접 확인하기",
+      "돈 이체/현금 전달 금지",
+      "가족에게 확인 전화하기",
+      "피해 우려 시 112, 1332, 은행 고객센터에 지급정지 문의"
+    ],
+    "shareTemplates": [
+      "전화 끊어도 됩니다. 송금하지 않아도 됩니다.",
+      "이 말이 나오면 멈추세요: 지금 바로 보내야 해요.",
+      "부모님께 꼭 보내고 싶은 보이스피싱 체크.",
+      "공식기관은 앱 설치나 현금 전달을 요구하지 않습니다.",
+      "당황하면 당합니다. 멈추면 보입니다."
+    ],
+    "copyMessages": [
+      "통화를 끊고 공식 대표번호로 직접 확인하겠습니다.",
+      "금전 요구에는 응하지 않겠습니다.",
+      "가족에게 직접 확인하겠습니다."
+    ],
+    "officialResources": [
+      {
+        "label": "긴급 위험",
+        "value": "112 경찰 / 119 응급"
+      },
+      {
+        "label": "금융사기 상담",
+        "value": "1332 금융감독원"
+      },
+      {
+        "label": "송금 피해",
+        "value": "해당 금융회사 고객센터 지급정지 문의"
+      }
+    ]
+  },
+  {
+    "id": "smishing",
+    "title": "스미싱/피싱 문자 판별",
+    "subtitle": "택배·범칙금·부고·정부지원금·URL·앱 설치 문자",
+    "category": "sms",
+    "estimatedTime": "30초~1분",
+    "introCopy": "수상한 문자는 누르기 전에 멈추세요. 링크, 앱 설치, 개인정보 입력 요구를 먼저 확인합니다.",
+    "disclaimer": "이 체크는 법적 판단, 의료·심리 진단, 범죄 예측이 아닙니다. 긴급 위험이 있으면 112, 119 등 공식 도움을 먼저 이용하세요.",
+    "questions": [
+      {
+        "id": "sm1",
+        "text": "문자에 URL 링크가 포함되어 있나요?",
+        "helpText": "의심 링크는 누르지 말고 공식 앱에서 확인하세요.",
+        "category": "url",
+        "weight": 1,
+        "options": [
+          {
+            "label": "예",
+            "value": "yes",
+            "score": 2
+          },
+          {
+            "label": "아니오",
+            "value": "no",
+            "score": 0
+          },
+          {
+            "label": "모르겠어요",
+            "value": "unknown",
+            "score": 1
+          }
+        ]
+      },
+      {
+        "id": "sm2",
+        "text": "앱 설치를 요구하나요?",
+        "helpText": "문자 링크로 앱을 설치하지 마세요.",
+        "category": "app",
+        "weight": 1,
+        "options": [
+          {
+            "label": "예",
+            "value": "yes",
+            "score": 2
+          },
+          {
+            "label": "아니오",
+            "value": "no",
+            "score": 0
+          },
+          {
+            "label": "모르겠어요",
+            "value": "unknown",
+            "score": 1
+          }
+        ]
+      },
+      {
+        "id": "sm3",
+        "text": "택배/범칙금/건강검진/정부지원금 등을 사칭하나요?",
+        "helpText": "생활형 사칭 문자가 자주 사용됩니다.",
+        "category": "impersonation",
+        "weight": 1,
+        "options": [
+          {
+            "label": "예",
+            "value": "yes",
+            "score": 2
+          },
+          {
+            "label": "아니오",
+            "value": "no",
+            "score": 0
+          },
+          {
+            "label": "모르겠어요",
+            "value": "unknown",
+            "score": 1
+          }
+        ]
+      },
+      {
+        "id": "sm4",
+        "text": "결제하지 않은 카드 승인 문자인가요?",
+        "helpText": "공식 카드사 앱이나 고객센터에서 직접 확인하세요.",
+        "category": "payment",
+        "weight": 1,
+        "options": [
+          {
+            "label": "예",
+            "value": "yes",
+            "score": 2
+          },
+          {
+            "label": "아니오",
+            "value": "no",
+            "score": 0
+          },
+          {
+            "label": "모르겠어요",
+            "value": "unknown",
+            "score": 1
+          }
+        ]
+      },
+      {
+        "id": "sm5",
+        "text": "인증번호나 개인정보 입력을 요구하나요?",
+        "helpText": "인증번호와 개인정보는 입력하지 마세요.",
+        "category": "privacy",
+        "weight": 1,
+        "options": [
+          {
+            "label": "예",
+            "value": "yes",
+            "score": 2
+          },
+          {
+            "label": "아니오",
+            "value": "no",
+            "score": 0
+          },
+          {
+            "label": "모르겠어요",
+            "value": "unknown",
+            "score": 1
+          }
+        ]
+      },
+      {
+        "id": "sm6",
+        "text": "부고장/청첩장 링크를 누르라고 하나요?",
+        "helpText": "지인에게 다른 경로로 확인하세요.",
+        "category": "social",
+        "weight": 1,
+        "options": [
+          {
+            "label": "예",
+            "value": "yes",
+            "score": 2
+          },
+          {
+            "label": "아니오",
+            "value": "no",
+            "score": 0
+          },
+          {
+            "label": "모르겠어요",
+            "value": "unknown",
+            "score": 1
+          }
+        ]
+      },
+      {
+        "id": "sm7",
+        "text": "당첨금이나 지원금을 받으려면 정보를 입력하라고 하나요?",
+        "helpText": "혜택을 빌미로 정보를 요구할 수 있습니다.",
+        "category": "reward",
+        "weight": 1,
+        "options": [
+          {
+            "label": "예",
+            "value": "yes",
+            "score": 2
+          },
+          {
+            "label": "아니오",
+            "value": "no",
+            "score": 0
+          },
+          {
+            "label": "모르겠어요",
+            "value": "unknown",
+            "score": 1
+          }
+        ]
+      },
+      {
+        "id": "sm8",
+        "text": "짧은 시간 안에 처리하라고 압박하나요?",
+        "helpText": "긴급함은 클릭을 유도하는 수법입니다.",
+        "category": "urgency",
+        "weight": 1,
+        "options": [
+          {
+            "label": "예",
+            "value": "yes",
+            "score": 2
+          },
+          {
+            "label": "아니오",
+            "value": "no",
+            "score": 0
+          },
+          {
+            "label": "모르겠어요",
+            "value": "unknown",
+            "score": 1
+          }
+        ]
+      },
+      {
+        "id": "sm9",
+        "text": "발신자가 010 개인번호처럼 보이나요?",
+        "helpText": "공식기관은 공식 채널로 확인해야 합니다.",
+        "category": "sender",
+        "weight": 1,
+        "options": [
+          {
+            "label": "예",
+            "value": "yes",
+            "score": 2
+          },
+          {
+            "label": "아니오",
+            "value": "no",
+            "score": 0
+          },
+          {
+            "label": "모르겠어요",
+            "value": "unknown",
+            "score": 1
+          }
+        ]
+      },
+      {
+        "id": "sm10",
+        "text": "이미 링크를 눌렀거나 앱을 설치했나요?",
+        "helpText": "즉시 118 상담과 보안 조치를 고려하세요.",
+        "category": "infected",
+        "weight": 1,
+        "options": [
+          {
+            "label": "예",
+            "value": "yes",
+            "score": 2
+          },
+          {
+            "label": "아니오",
+            "value": "no",
+            "score": 0
+          },
+          {
+            "label": "모르겠어요",
+            "value": "unknown",
+            "score": 1
+          }
+        ]
+      }
+    ],
+    "resultLevels": [
+      {
+        "minScore": 0,
+        "maxScore": 5,
+        "label": "낮음",
+        "tone": "safe",
+        "summary": "지금은 기본 확인만 해도 괜찮아 보여요. 그래도 중요한 정보 공유와 공식 경로 확인은 유지하세요."
+      },
+      {
+        "minScore": 6,
+        "maxScore": 10,
+        "label": "주의",
+        "tone": "notice",
+        "summary": "몇 가지 신호가 있어요. 혼자 판단하지 말고 한 번 멈춰 확인해보세요."
+      },
+      {
+        "minScore": 11,
+        "maxScore": 15,
+        "label": "경계",
+        "tone": "caution",
+        "summary": "지금은 응답, 송금, 이동, 추가 정보 제공을 멈추고 기록과 공유가 필요합니다."
+      },
+      {
+        "minScore": 16,
+        "maxScore": 30,
+        "label": "위험 가능성 높음",
+        "tone": "danger",
+        "summary": "즉시 통화나 대화를 멈추고 공식기관 또는 신뢰할 수 있는 사람에게 도움을 요청하세요."
+      }
+    ],
+    "recommendedActions": [
+      "링크 누르지 않기",
+      "앱 설치하지 않기",
+      "공식 앱/홈페이지에서 직접 확인하기",
+      "118 상담센터 안내 확인하기",
+      "의심 문자 신고 및 가족에게 공유하기"
+    ],
+    "shareTemplates": [
+      "수상한 문자는 누르기 전에 멈추기.",
+      "이 링크 괜찮을까? 먼저 체크하세요.",
+      "스미싱 의심 문자 30초 판별.",
+      "앱 설치 요청 문자는 한 번 더 확인.",
+      "부모님께 보내는 문자 피싱 체크."
+    ],
+    "copyMessages": [
+      "이 링크는 열지 않고 공식 채널에서 확인하겠습니다.",
+      "문자 내용은 스미싱 여부를 먼저 확인하겠습니다.",
+      "앱 설치 요청에는 응하지 않겠습니다."
+    ],
+    "officialResources": [
+      {
+        "label": "스미싱·해킹 상담",
+        "value": "118 KISA"
+      },
+      {
+        "label": "긴급 위험",
+        "value": "112 경찰 / 119 응급"
+      },
+      {
+        "label": "금융사기 상담",
+        "value": "1332 금융감독원"
+      }
+    ]
+  },
+  {
+    "id": "romance-investment",
+    "title": "로맨스 스캠/투자 사기 체크",
+    "subtitle": "고수익 투자·출금 수수료·연애 감정 이용 송금 요구",
+    "category": "money",
+    "estimatedTime": "30초~1분",
+    "introCopy": "친밀감이나 고수익 약속으로 판단을 흔드는 상황을 점검합니다. 송금 전 멈추는 것이 핵심입니다.",
+    "disclaimer": "이 체크는 법적 판단, 의료·심리 진단, 범죄 예측이 아닙니다. 긴급 위험이 있으면 112, 119 등 공식 도움을 먼저 이용하세요.",
+    "questions": [
+      {
+        "id": "ri1",
+        "text": "만난 적 없는 사람이 돈을 요구하나요?",
+        "helpText": "직접 만난 적 없는 사람의 금전 요구는 멈춰야 합니다.",
+        "category": "money",
+        "weight": 1,
+        "options": [
+          {
+            "label": "예",
+            "value": "yes",
+            "score": 2
+          },
+          {
+            "label": "아니오",
+            "value": "no",
+            "score": 0
+          },
+          {
+            "label": "모르겠어요",
+            "value": "unknown",
+            "score": 1
+          }
+        ]
+      },
+      {
+        "id": "ri2",
+        "text": "고수익 투자를 권유하나요?",
+        "helpText": "확정 수익, 원금 보장은 의심해야 합니다.",
+        "category": "investment",
+        "weight": 1,
+        "options": [
+          {
+            "label": "예",
+            "value": "yes",
+            "score": 2
+          },
+          {
+            "label": "아니오",
+            "value": "no",
+            "score": 0
+          },
+          {
+            "label": "모르겠어요",
+            "value": "unknown",
+            "score": 1
+          }
+        ]
+      },
+      {
+        "id": "ri3",
+        "text": "출금하려면 수수료를 내라고 하나요?",
+        "helpText": "출금 수수료 요구는 흔한 사기 구조입니다.",
+        "category": "fee",
+        "weight": 1,
+        "options": [
+          {
+            "label": "예",
+            "value": "yes",
+            "score": 2
+          },
+          {
+            "label": "아니오",
+            "value": "no",
+            "score": 0
+          },
+          {
+            "label": "모르겠어요",
+            "value": "unknown",
+            "score": 1
+          }
+        ]
+      },
+      {
+        "id": "ri4",
+        "text": "해외 체류, 군인, 의사, 사업가 등을 사칭하나요?",
+        "helpText": "직업과 체류 상황으로 신뢰를 만들 수 있습니다.",
+        "category": "identity",
+        "weight": 1,
+        "options": [
+          {
+            "label": "예",
+            "value": "yes",
+            "score": 2
+          },
+          {
+            "label": "아니오",
+            "value": "no",
+            "score": 0
+          },
+          {
+            "label": "모르겠어요",
+            "value": "unknown",
+            "score": 1
+          }
+        ]
+      },
+      {
+        "id": "ri5",
+        "text": "관계를 빠르게 확정하며 신뢰를 요구하나요?",
+        "helpText": "빠른 친밀감은 판단을 흐릴 수 있습니다.",
+        "category": "emotion",
+        "weight": 1,
+        "options": [
+          {
+            "label": "예",
+            "value": "yes",
+            "score": 2
+          },
+          {
+            "label": "아니오",
+            "value": "no",
+            "score": 0
+          },
+          {
+            "label": "모르겠어요",
+            "value": "unknown",
+            "score": 1
+          }
+        ]
+      },
+      {
+        "id": "ri6",
+        "text": "신분증이나 계좌 정보를 요구하나요?",
+        "helpText": "개인정보 제공은 중단하세요.",
+        "category": "privacy",
+        "weight": 1,
+        "options": [
+          {
+            "label": "예",
+            "value": "yes",
+            "score": 2
+          },
+          {
+            "label": "아니오",
+            "value": "no",
+            "score": 0
+          },
+          {
+            "label": "모르겠어요",
+            "value": "unknown",
+            "score": 1
+          }
+        ]
+      },
+      {
+        "id": "ri7",
+        "text": "전용 투자 앱 설치를 요구하나요?",
+        "helpText": "검증되지 않은 앱은 위험합니다.",
+        "category": "app",
+        "weight": 1,
+        "options": [
+          {
+            "label": "예",
+            "value": "yes",
+            "score": 2
+          },
+          {
+            "label": "아니오",
+            "value": "no",
+            "score": 0
+          },
+          {
+            "label": "모르겠어요",
+            "value": "unknown",
+            "score": 1
+          }
+        ]
+      },
+      {
+        "id": "ri8",
+        "text": "주변에 말하지 말라고 하나요?",
+        "helpText": "고립은 사기의 핵심 신호입니다.",
+        "category": "isolation",
+        "weight": 1,
+        "options": [
+          {
+            "label": "예",
+            "value": "yes",
+            "score": 2
+          },
+          {
+            "label": "아니오",
+            "value": "no",
+            "score": 0
+          },
+          {
+            "label": "모르겠어요",
+            "value": "unknown",
+            "score": 1
+          }
+        ]
+      },
+      {
+        "id": "ri9",
+        "text": "손실을 만회하려면 더 넣으라고 하나요?",
+        "helpText": "추가 입금 압박은 멈춤 신호입니다.",
+        "category": "loss",
+        "weight": 1,
+        "options": [
+          {
+            "label": "예",
+            "value": "yes",
+            "score": 2
+          },
+          {
+            "label": "아니오",
+            "value": "no",
+            "score": 0
+          },
+          {
+            "label": "모르겠어요",
+            "value": "unknown",
+            "score": 1
+          }
+        ]
+      },
+      {
+        "id": "ri10",
+        "text": "인증번호나 원격제어 앱을 요구하나요?",
+        "helpText": "계정 탈취 위험이 있습니다.",
+        "category": "account",
+        "weight": 1,
+        "options": [
+          {
+            "label": "예",
+            "value": "yes",
+            "score": 2
+          },
+          {
+            "label": "아니오",
+            "value": "no",
+            "score": 0
+          },
+          {
+            "label": "모르겠어요",
+            "value": "unknown",
+            "score": 1
+          }
+        ]
+      }
+    ],
+    "resultLevels": [
+      {
+        "minScore": 0,
+        "maxScore": 5,
+        "label": "낮음",
+        "tone": "safe",
+        "summary": "지금은 기본 확인만 해도 괜찮아 보여요. 그래도 중요한 정보 공유와 공식 경로 확인은 유지하세요."
+      },
+      {
+        "minScore": 6,
+        "maxScore": 10,
+        "label": "주의",
+        "tone": "notice",
+        "summary": "몇 가지 신호가 있어요. 혼자 판단하지 말고 한 번 멈춰 확인해보세요."
+      },
+      {
+        "minScore": 11,
+        "maxScore": 15,
+        "label": "경계",
+        "tone": "caution",
+        "summary": "지금은 응답, 송금, 이동, 추가 정보 제공을 멈추고 기록과 공유가 필요합니다."
+      },
+      {
+        "minScore": 16,
+        "maxScore": 30,
+        "label": "위험 가능성 높음",
+        "tone": "danger",
+        "summary": "즉시 통화나 대화를 멈추고 공식기관 또는 신뢰할 수 있는 사람에게 도움을 요청하세요."
+      }
+    ],
+    "recommendedActions": [
+      "송금 멈추기",
+      "거래소/계좌/전화번호 기록하기",
+      "신분증·계좌·인증번호 공유 금지",
+      "주변 사람에게 상황 공유하기",
+      "금융사기 신고 안내 확인하기"
+    ],
+    "shareTemplates": [
+      "고수익보다 먼저 멈춤.",
+      "연애 감정과 송금 요구가 함께 오면 체크하세요.",
+      "출금 수수료 요구는 위험 신호일 수 있어요.",
+      "혼자 판단하지 말고 주변에 공유하세요.",
+      "투자 링크 누르기 전 30초 체크."
+    ],
+    "copyMessages": [
+      "금전 요구에는 응하지 않겠습니다. 공식 경로로 확인하겠습니다.",
+      "투자금이나 수수료를 추가로 보내지 않겠습니다.",
+      "이 계좌와 대화 내용은 기록해두겠습니다."
+    ],
+    "officialResources": [
+      {
+        "label": "금융사기 상담",
+        "value": "1332 금융감독원"
+      },
+      {
+        "label": "송금 피해",
+        "value": "해당 금융회사 고객센터 지급정지 문의"
+      },
+      {
+        "label": "긴급 위험",
+        "value": "112 경찰 / 119 응급"
+      }
+    ]
+  },
+  {
+    "id": "trade-loan-job",
+    "title": "중고거래/대출/알바 사기 체크",
+    "subtitle": "안전결제 사칭·선입금·저금리 대출·부업 수수료",
+    "category": "commerce",
+    "estimatedTime": "30초~1분",
+    "introCopy": "거래, 대출, 알바 제안에서 돈을 먼저 요구하거나 외부 링크로 유도하는 상황을 점검합니다.",
+    "disclaimer": "이 체크는 법적 판단, 의료·심리 진단, 범죄 예측이 아닙니다. 긴급 위험이 있으면 112, 119 등 공식 도움을 먼저 이용하세요.",
+    "questions": [
+      {
+        "id": "tl1",
+        "text": "안전결제라며 외부 링크로 결제를 유도하나요?",
+        "helpText": "공식 앱 밖 링크는 확인해야 합니다.",
+        "category": "payment",
+        "weight": 1,
+        "options": [
+          {
+            "label": "예",
+            "value": "yes",
+            "score": 2
+          },
+          {
+            "label": "아니오",
+            "value": "no",
+            "score": 0
+          },
+          {
+            "label": "모르겠어요",
+            "value": "unknown",
+            "score": 1
+          }
+        ]
+      },
+      {
+        "id": "tl2",
+        "text": "수수료나 보증금을 먼저 보내라고 하나요?",
+        "helpText": "선입금 요구는 사기 가능성이 있습니다.",
+        "category": "fee",
+        "weight": 1,
+        "options": [
+          {
+            "label": "예",
+            "value": "yes",
+            "score": 2
+          },
+          {
+            "label": "아니오",
+            "value": "no",
+            "score": 0
+          },
+          {
+            "label": "모르겠어요",
+            "value": "unknown",
+            "score": 1
+          }
+        ]
+      },
+      {
+        "id": "tl3",
+        "text": "저금리 대출을 위해 기존 대출 상환을 요구하나요?",
+        "helpText": "대출 상환 요구형 사기일 수 있습니다.",
+        "category": "loan",
+        "weight": 1,
+        "options": [
+          {
+            "label": "예",
+            "value": "yes",
+            "score": 2
+          },
+          {
+            "label": "아니오",
+            "value": "no",
+            "score": 0
+          },
+          {
+            "label": "모르겠어요",
+            "value": "unknown",
+            "score": 1
+          }
+        ]
+      },
+      {
+        "id": "tl4",
+        "text": "신분증, 통장, 체크카드, 비밀번호를 요구하나요?",
+        "helpText": "개인 금융정보 제공은 중단하세요.",
+        "category": "privacy",
+        "weight": 1,
+        "options": [
+          {
+            "label": "예",
+            "value": "yes",
+            "score": 2
+          },
+          {
+            "label": "아니오",
+            "value": "no",
+            "score": 0
+          },
+          {
+            "label": "모르겠어요",
+            "value": "unknown",
+            "score": 1
+          }
+        ]
+      },
+      {
+        "id": "tl5",
+        "text": "알바 시작 전에 물품 구매나 교육비를 요구하나요?",
+        "helpText": "부업 사기의 흔한 구조입니다.",
+        "category": "job",
+        "weight": 1,
+        "options": [
+          {
+            "label": "예",
+            "value": "yes",
+            "score": 2
+          },
+          {
+            "label": "아니오",
+            "value": "no",
+            "score": 0
+          },
+          {
+            "label": "모르겠어요",
+            "value": "unknown",
+            "score": 1
+          }
+        ]
+      },
+      {
+        "id": "tl6",
+        "text": "카카오톡/문자 링크로 앱 설치를 요구하나요?",
+        "helpText": "공식 앱스토어 외 설치는 위험합니다.",
+        "category": "app",
+        "weight": 1,
+        "options": [
+          {
+            "label": "예",
+            "value": "yes",
+            "score": 2
+          },
+          {
+            "label": "아니오",
+            "value": "no",
+            "score": 0
+          },
+          {
+            "label": "모르겠어요",
+            "value": "unknown",
+            "score": 1
+          }
+        ]
+      },
+      {
+        "id": "tl7",
+        "text": "너무 높은 수익을 보장하나요?",
+        "helpText": "고수익 보장은 의심해야 합니다.",
+        "category": "profit",
+        "weight": 1,
+        "options": [
+          {
+            "label": "예",
+            "value": "yes",
+            "score": 2
+          },
+          {
+            "label": "아니오",
+            "value": "no",
+            "score": 0
+          },
+          {
+            "label": "모르겠어요",
+            "value": "unknown",
+            "score": 1
+          }
+        ]
+      },
+      {
+        "id": "tl8",
+        "text": "거래 기록을 남기지 말자고 하나요?",
+        "helpText": "기록 회피는 위험 신호입니다.",
+        "category": "record",
+        "weight": 1,
+        "options": [
+          {
+            "label": "예",
+            "value": "yes",
+            "score": 2
+          },
+          {
+            "label": "아니오",
+            "value": "no",
+            "score": 0
+          },
+          {
+            "label": "모르겠어요",
+            "value": "unknown",
+            "score": 1
+          }
+        ]
+      },
+      {
+        "id": "tl9",
+        "text": "급하다며 지금 바로 입금하라고 하나요?",
+        "helpText": "긴급 압박은 멈춤 신호입니다.",
+        "category": "urgency",
+        "weight": 1,
+        "options": [
+          {
+            "label": "예",
+            "value": "yes",
+            "score": 2
+          },
+          {
+            "label": "아니오",
+            "value": "no",
+            "score": 0
+          },
+          {
+            "label": "모르겠어요",
+            "value": "unknown",
+            "score": 1
+          }
+        ]
+      },
+      {
+        "id": "tl10",
+        "text": "사업자/업체 정보를 확인하기 어렵나요?",
+        "helpText": "공식 등록 여부를 확인하세요.",
+        "category": "identity",
+        "weight": 1,
+        "options": [
+          {
+            "label": "예",
+            "value": "yes",
+            "score": 2
+          },
+          {
+            "label": "아니오",
+            "value": "no",
+            "score": 0
+          },
+          {
+            "label": "모르겠어요",
+            "value": "unknown",
+            "score": 1
+          }
+        ]
+      }
+    ],
+    "resultLevels": [
+      {
+        "minScore": 0,
+        "maxScore": 5,
+        "label": "낮음",
+        "tone": "safe",
+        "summary": "지금은 기본 확인만 해도 괜찮아 보여요. 그래도 중요한 정보 공유와 공식 경로 확인은 유지하세요."
+      },
+      {
+        "minScore": 6,
+        "maxScore": 10,
+        "label": "주의",
+        "tone": "notice",
+        "summary": "몇 가지 신호가 있어요. 혼자 판단하지 말고 한 번 멈춰 확인해보세요."
+      },
+      {
+        "minScore": 11,
+        "maxScore": 15,
+        "label": "경계",
+        "tone": "caution",
+        "summary": "지금은 응답, 송금, 이동, 추가 정보 제공을 멈추고 기록과 공유가 필요합니다."
+      },
+      {
+        "minScore": 16,
+        "maxScore": 30,
+        "label": "위험 가능성 높음",
+        "tone": "danger",
+        "summary": "즉시 통화나 대화를 멈추고 공식기관 또는 신뢰할 수 있는 사람에게 도움을 요청하세요."
+      }
+    ],
+    "recommendedActions": [
+      "외부 결제 링크 누르지 않기",
+      "선입금·수수료 송금 멈추기",
+      "공식 앱/홈페이지에서 직접 확인하기",
+      "대화와 계좌 정보 캡처하기",
+      "피해 우려 시 112, 1332, 금융회사 문의"
+    ],
+    "shareTemplates": [
+      "중고거래 링크 누르기 전 30초 체크.",
+      "선입금 요구가 나오면 멈추세요.",
+      "알바 시작 전 돈 요구는 체크해야 합니다.",
+      "대출 수수료 먼저 보내라는 말은 위험 신호.",
+      "거래는 공식 앱 안에서만."
+    ],
+    "copyMessages": [
+      "외부 링크 결제는 하지 않겠습니다. 공식 앱에서 확인하겠습니다.",
+      "수수료나 보증금 선입금에는 응하지 않겠습니다.",
+      "계좌와 대화 내용은 기록해두겠습니다."
+    ],
+    "officialResources": [
+      {
+        "label": "금융사기 상담",
+        "value": "1332 금융감독원"
+      },
+      {
+        "label": "송금 피해",
+        "value": "해당 금융회사 고객센터 지급정지 문의"
+      },
+      {
+        "label": "긴급 위험",
+        "value": "112 경찰 / 119 응급"
+      }
+    ]
+  },
+  {
+    "id": "parent-protection",
+    "title": "부모님 보호 모드",
+    "subtitle": "큰 글씨 보이스피싱·자녀 사칭·앱 설치 전화 대응",
+    "category": "parent",
+    "estimatedTime": "30초~1분",
+    "introCopy": "부모님이 바로 이해할 수 있도록 가장 단순한 행동만 안내합니다. 돈 이야기가 나오면 통화를 끊고 가족에게 확인하세요.",
+    "disclaimer": "이 체크는 법적 판단, 의료·심리 진단, 범죄 예측이 아닙니다. 긴급 위험이 있으면 112, 119 등 공식 도움을 먼저 이용하세요.",
+    "questions": [
+      {
+        "id": "pp1",
+        "text": "검찰, 경찰, 은행이라며 돈을 보내라고 하나요?",
+        "helpText": "공식기관은 현금 전달을 요구하지 않습니다.",
+        "category": "money",
+        "weight": 1,
+        "options": [
+          {
+            "label": "예",
+            "value": "yes",
+            "score": 2
+          },
+          {
+            "label": "아니오",
+            "value": "no",
+            "score": 0
+          },
+          {
+            "label": "모르겠어요",
+            "value": "unknown",
+            "score": 1
+          }
+        ]
+      },
+      {
+        "id": "pp2",
+        "text": "앱을 설치하라고 하나요?",
+        "helpText": "전화로 앱 설치를 요구하면 끊으세요.",
+        "category": "app",
+        "weight": 1,
+        "options": [
+          {
+            "label": "예",
+            "value": "yes",
+            "score": 2
+          },
+          {
+            "label": "아니오",
+            "value": "no",
+            "score": 0
+          },
+          {
+            "label": "모르겠어요",
+            "value": "unknown",
+            "score": 1
+          }
+        ]
+      },
+      {
+        "id": "pp3",
+        "text": "자녀가 다쳤다거나 납치됐다고 하나요?",
+        "helpText": "통화를 끊고 자녀에게 직접 전화하세요.",
+        "category": "family",
+        "weight": 1,
+        "options": [
+          {
+            "label": "예",
+            "value": "yes",
+            "score": 2
+          },
+          {
+            "label": "아니오",
+            "value": "no",
+            "score": 0
+          },
+          {
+            "label": "모르겠어요",
+            "value": "unknown",
+            "score": 1
+          }
+        ]
+      },
+      {
+        "id": "pp4",
+        "text": "현금을 뽑아 전달하라고 하나요?",
+        "helpText": "현금 전달은 응하지 마세요.",
+        "category": "cash",
+        "weight": 1,
+        "options": [
+          {
+            "label": "예",
+            "value": "yes",
+            "score": 2
+          },
+          {
+            "label": "아니오",
+            "value": "no",
+            "score": 0
+          },
+          {
+            "label": "모르겠어요",
+            "value": "unknown",
+            "score": 1
+          }
+        ]
+      },
+      {
+        "id": "pp5",
+        "text": "통화를 끊으면 처벌받는다고 하나요?",
+        "helpText": "통화를 끊어도 처벌받지 않습니다.",
+        "category": "fear",
+        "weight": 1,
+        "options": [
+          {
+            "label": "예",
+            "value": "yes",
+            "score": 2
+          },
+          {
+            "label": "아니오",
+            "value": "no",
+            "score": 0
+          },
+          {
+            "label": "모르겠어요",
+            "value": "unknown",
+            "score": 1
+          }
+        ]
+      },
+      {
+        "id": "pp6",
+        "text": "문화상품권이나 기프트카드를 요구하나요?",
+        "helpText": "상품권 번호 요구는 사기 신호입니다.",
+        "category": "gift",
+        "weight": 1,
+        "options": [
+          {
+            "label": "예",
+            "value": "yes",
+            "score": 2
+          },
+          {
+            "label": "아니오",
+            "value": "no",
+            "score": 0
+          },
+          {
+            "label": "모르겠어요",
+            "value": "unknown",
+            "score": 1
+          }
+        ]
+      },
+      {
+        "id": "pp7",
+        "text": "신분증 사진이나 계좌 비밀번호를 요구하나요?",
+        "helpText": "개인정보를 보내지 마세요.",
+        "category": "privacy",
+        "weight": 1,
+        "options": [
+          {
+            "label": "예",
+            "value": "yes",
+            "score": 2
+          },
+          {
+            "label": "아니오",
+            "value": "no",
+            "score": 0
+          },
+          {
+            "label": "모르겠어요",
+            "value": "unknown",
+            "score": 1
+          }
+        ]
+      },
+      {
+        "id": "pp8",
+        "text": "가족에게 말하지 말라고 하나요?",
+        "helpText": "가족에게 먼저 확인하세요.",
+        "category": "isolation",
+        "weight": 1,
+        "options": [
+          {
+            "label": "예",
+            "value": "yes",
+            "score": 2
+          },
+          {
+            "label": "아니오",
+            "value": "no",
+            "score": 0
+          },
+          {
+            "label": "모르겠어요",
+            "value": "unknown",
+            "score": 1
+          }
+        ]
+      },
+      {
+        "id": "pp9",
+        "text": "원격제어 앱을 설치하라고 하나요?",
+        "helpText": "휴대폰을 조종당할 수 있습니다.",
+        "category": "remote",
+        "weight": 1,
+        "options": [
+          {
+            "label": "예",
+            "value": "yes",
+            "score": 2
+          },
+          {
+            "label": "아니오",
+            "value": "no",
+            "score": 0
+          },
+          {
+            "label": "모르겠어요",
+            "value": "unknown",
+            "score": 1
+          }
+        ]
+      },
+      {
+        "id": "pp10",
+        "text": "대출을 싸게 해준다며 먼저 돈을 요구하나요?",
+        "helpText": "대출 수수료 선입금은 위험합니다.",
+        "category": "loan",
+        "weight": 1,
+        "options": [
+          {
+            "label": "예",
+            "value": "yes",
+            "score": 2
+          },
+          {
+            "label": "아니오",
+            "value": "no",
+            "score": 0
+          },
+          {
+            "label": "모르겠어요",
+            "value": "unknown",
+            "score": 1
+          }
+        ]
+      }
+    ],
+    "resultLevels": [
+      {
+        "minScore": 0,
+        "maxScore": 5,
+        "label": "낮음",
+        "tone": "safe",
+        "summary": "지금은 기본 확인만 해도 괜찮아 보여요. 그래도 중요한 정보 공유와 공식 경로 확인은 유지하세요."
+      },
+      {
+        "minScore": 6,
+        "maxScore": 10,
+        "label": "주의",
+        "tone": "notice",
+        "summary": "몇 가지 신호가 있어요. 혼자 판단하지 말고 한 번 멈춰 확인해보세요."
+      },
+      {
+        "minScore": 11,
+        "maxScore": 15,
+        "label": "경계",
+        "tone": "caution",
+        "summary": "지금은 응답, 송금, 이동, 추가 정보 제공을 멈추고 기록과 공유가 필요합니다."
+      },
+      {
+        "minScore": 16,
+        "maxScore": 30,
+        "label": "위험 가능성 높음",
+        "tone": "danger",
+        "summary": "즉시 통화나 대화를 멈추고 공식기관 또는 신뢰할 수 있는 사람에게 도움을 요청하세요."
+      }
+    ],
+    "recommendedActions": [
+      "지금 전화 끊기",
+      "자녀 또는 가족에게 직접 확인 전화하기",
+      "돈 이체/현금 전달 금지",
+      "앱 설치 금지",
+      "112 또는 은행 고객센터 지급정지 문의"
+    ],
+    "shareTemplates": [
+      "부모님 휴대폰에 꼭 저장해둘 체크.",
+      "돈 이야기가 나오면 먼저 가족에게 확인.",
+      "검찰·경찰·은행은 현금 전달을 요구하지 않습니다.",
+      "앱 설치하라는 전화는 끊으세요.",
+      "통화를 끊어도 처벌받지 않습니다."
+    ],
+    "copyMessages": [
+      "통화를 끊고 가족에게 직접 확인하겠습니다.",
+      "돈을 보내지 않겠습니다. 공식 번호로 확인하겠습니다.",
+      "앱 설치 요청에는 응하지 않겠습니다."
+    ],
+    "officialResources": [
+      {
+        "label": "긴급 위험",
+        "value": "112 경찰 / 119 응급"
+      },
+      {
+        "label": "금융사기 상담",
+        "value": "1332 금융감독원"
+      },
+      {
+        "label": "송금 피해",
+        "value": "해당 금융회사 고객센터 지급정지 문의"
+      }
+    ]
+  }
+]

@@ -1,5 +1,21 @@
 # Changelog
 
+## v0.2.0
+
+Scenario coverage and maintainability update.
+
+### Added
+
+- `secondhand-trade` scenario — 중고거래 사기(안전결제 사칭·선입금·시세 이하·외부 링크) 10문항 체크.
+- `qr-phishing` scenario — QR코드·큐싱 피싱(주차·과태료·배송 QR, 가짜 앱 설치, 결제 유도) 10문항 체크.
+- `data/scenarios.extra.ko.json` data file, merged at load time by `src/index.js` and the validation script.
+- README badges, use-case section, and a "Validating scenario data" guide.
+
+### Changed
+
+- Smoke test now covers 11 scenarios and asserts the full scenario id set.
+- Validation script validates both base and extra scenario data files.
+
 ## v0.1.1
 
 Post-submission maintainer-signal update.

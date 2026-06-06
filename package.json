@@ -1,6 +1,6 @@
 {
   "name": "korean-safety-check-kit",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "description": "Open-source Korean digital safety checklist data and scoring utilities.",
   "main": "src/index.js",
   "repository": {
@@ -15,7 +15,7 @@
     "validate": "node scripts/validate.js",
     "test": "npm run validate && node test/smoke.js && node test/docs.js"
   },
-  "keywords": ["korea", "safety", "phishing", "smishing", "sextortion", "checklist", "public-interest", "codex"],
+  "keywords": ["korea", "safety", "phishing", "smishing", "sextortion", "qr-phishing", "secondhand-trade", "checklist", "public-interest", "codex"],
   "author": "Geniushyuk",
   "license": "MIT",
   "engines": { "node": ">=18.0.0" }

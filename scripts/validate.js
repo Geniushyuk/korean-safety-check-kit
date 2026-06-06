@@ -1,7 +1,7 @@
 const fs = require('fs');
 const path = require('path');
 
-const scenarios = require('../data/scenarios.ko.json');
+const scenarios = require('../data/scenarios.ko.json').concat(require('../data/scenarios.extra.ko.json'));
 const requiredScenarioFields = ['id', 'title', 'subtitle', 'category', 'introCopy', 'questions', 'resultLevels', 'recommendedActions', 'officialResources', 'disclaimer'];
 const requiredQuestionFields = ['id', 'text', 'helpText', 'category', 'weight', 'options'];
 const ids = new Set();

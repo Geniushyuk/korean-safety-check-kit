@@ -1,4 +1,4 @@
-const SCENARIOS = require('../data/scenarios.ko.json');
+const SCENARIOS = require('../data/scenarios.ko.json').concat(require('../data/scenarios.extra.ko.json'));
 
 const RESOURCES = {
   emergency: { label: '긴급 위험', value: '112 경찰 / 119 응급' },
@@ -60,7 +60,7 @@ function getResources(scenario) {
 }
 
 function getShareCopy(scenario, result) {
-  const template = scenario.shareTemplates?.[0] || `${scenario.title} 체크`; 
+  const template = scenario.shareTemplates?.[0] || `${scenario.title} 체크`;
   return `${template}\n결과: ${result.level.label}\n긴급 위험이 있으면 112/119 등 공식기관에 먼저 연락하세요.`;
 }
 

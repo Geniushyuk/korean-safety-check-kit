@@ -2,13 +2,15 @@ const assert = require('assert');
 const { listScenarios, getScenario, scoreAnswers, getRecommendedActions, getResources, getShareCopy } = require('../src');
 
 const scenarios = listScenarios();
-assert.equal(scenarios.length, 9);
+assert.equal(scenarios.length, 11);
 assert.deepEqual(scenarios.map((item) => item.id).sort(), [
   'first-meeting',
   'parent-protection',
+  'qr-phishing',
   'relationship-signals',
   'romance-investment',
   'safe-return',
+  'secondhand-trade',
   'sextortion',
   'smishing',
   'trade-loan-job',

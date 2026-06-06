@@ -1,5 +1,7 @@
 # Korean Safety Check Kit
 
+[![npm version](https://img.shields.io/npm/v/korean-safety-check-kit.svg)](https://www.npmjs.com/package/korean-safety-check-kit)
+[![npm downloads](https://img.shields.io/npm/dm/korean-safety-check-kit.svg)](https://www.npmjs.com/package/korean-safety-check-kit)
 ![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)
 ![Node](https://img.shields.io/badge/node-%3E%3D18-brightgreen.svg)
 ![Scenarios](https://img.shields.io/badge/scenarios-11-blue.svg)
@@ -21,6 +23,12 @@ This kit provides:
 - official-resource labels
 - safe copy templates
 - validation tests for maintainers
+
+## Install
+
+```bash
+npm install korean-safety-check-kit
+```
 
 ## Quick usage
 
